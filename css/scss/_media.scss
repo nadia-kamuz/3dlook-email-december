@@ -5,8 +5,7 @@
     }
 
     .contact>td,
-    .hello>td,
-    .footer>td {
+    .hello>td {
         padding: 0 20px !important;
     }
 
@@ -221,24 +220,6 @@
                         &:nth-child(2) {
                             td {
                                 height: 173px !important;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 332px) {
-   .content {
-        .hidden-desktop {
-            &.article {
-                table {
-                    tr {
-                        &:nth-child(2) {
-                            td {
-                                height: 193px !important;
                             }
                         }
                     }
